@@ -1,21 +1,30 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/baseLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/baseLayout"
+    android:orientation="vertical"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:gravity="center_horizontal">>
+
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/button1"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
         android:text="배경색 변경" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/button2"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
         android:text="버튼 변경" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2018038067정재민"
+        android:textSize="24sp" />
 </LinearLayout>
 
